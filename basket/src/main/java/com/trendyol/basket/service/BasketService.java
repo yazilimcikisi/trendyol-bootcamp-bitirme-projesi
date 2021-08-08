@@ -37,9 +37,6 @@ public class BasketService {
 
     public BasketResultModel getCustomersBasketInfo(String customerId)
     {
-        //get customers product Id list
-        //var productIdList = getProductIdsFromCustomersProductServiceByCustomerId(customerId);
-
         Basket customersBasket = _basketRepository.findByCustomerId(customerId);
         List<ProductModel> productModelList = new ArrayList<ProductModel>();
 
