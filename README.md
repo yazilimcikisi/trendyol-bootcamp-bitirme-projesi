@@ -76,4 +76,19 @@ Bu diyagram, projede yer alacak olan verilerin neler olduğunu belirlemek için 
 Yukarıdaki ER diyagramı ve servislere istinaden veritabanı aşağıdaki şekli almıştır. Görseli yüksek çözünürlükte incelemek için [tıklayınız](https://github.com/peserey/trendyol-bootcamp-bitirme-projesi/blob/main/images/veritabanlari.png)
 ![veritabanlari](https://github.com/peserey/trendyol-bootcamp-bitirme-projesi/blob/main/images/veritabanlari.png)
 
+## Gereksinim:
+Sepetteki ürünlerin sistemdeki fiyat ve stok bilgisi doğal olarak değişiyor. 
+- Sepetteki bir ürünün fiyatı; sepete eklendiği fiyattan daha aza düştüğü an, kullanıcılara sepetteki ürününün fiyatı azaldı diye email atmak istiyoruz.
+- Sepetteki bir ürünün stoğu; 3'ten az kalırsa; kullanıcılara sepetteki ürününün tükenmek üzere diye email atmak istiyoruz.
+- Sepetteki bir ürünün stoğu; 0 olursa; kullanıcılara sepetteki ürününün tükendi diye email atmak istiyoruz.
+
+Bu gereksinimler için tasarladığım mimariler:
+#### 1) Bir ürünün fiyatının güncellenmesi
+Görseli yüksek çözünürlükte incelemek için [tıklayınız](https://github.com/peserey/trendyol-bootcamp-bitirme-projesi/blob/main/images/urun-fiyatinin-guncellenmesi.png)
+![urunun-fiyainin-guncellenmesi](https://github.com/peserey/trendyol-bootcamp-bitirme-projesi/blob/main/images/urun-fiyatinin-guncellenmesi.png)
+#### 2) Bir ürünün stok bilgisinin güncellenmesi
+Görseli yüksek çözünürlükte incelemek için [tıklayınız](https://github.com/peserey/trendyol-bootcamp-bitirme-projesi/blob/main/images/urun-stok-bilgisinin-guncellenmesi.png)
+![urunun-fiyainin-guncellenmesi](https://github.com/peserey/trendyol-bootcamp-bitirme-projesi/blob/main/images/urun-stok-bilgisinin-guncellenmesi.png)
+Bu mimariler için kodsal bir geliştirme yapılmamıştır.
+
 
